@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { getCatalog } from '../../../mockData';
+import { getCatalog } from '../../../jsonData';
 import { addProductsToCart } from "../../../redux/orderSlice";
 
 export const useAddItemLogic = () => {

@@ -1,4 +1,4 @@
-import { orderDetails } from "../mockData"
+import { orderDetails } from "../jsonData"
 
 export const fetchOrderDetails = () => {
   return new Promise((resolve, reject) => {
